@@ -1,0 +1,22 @@
+{
+  "name": "ilaura/upc-validator-laravel",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ilaura\\UpcValidatorLaravel\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "ilaura",
+      "email": "laura.iancu87@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "8.3",
+    "ilaura/upc-validator": "^1.0",
+    "illuminate/contracts" : "^10.0"
+  },
+  "description": "A Laravel package for UPC validation"
+}
